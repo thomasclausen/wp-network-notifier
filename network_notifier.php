@@ -59,7 +59,7 @@ function network_notifier_post_published( $pid ) {
 			$name = esc_attr( $author['name'] );
 			$email = esc_attr( strtolower( $author['email'] ) );
 			
-			//if ( is_email( $email ) && $email != $network_notifier_site_email ) : // if admin shouldn't get notified
+			//if ( is_email( $email ) and $email != $network_notifier_site_email ) : // if admin shouldn't get notified
 			if ( is_email( $email ) ) :
 				$subject = 'Nyt indlæg på "' . $network_notifier_site_name . '"';
 				
@@ -112,7 +112,7 @@ function network_notifier_post_commented( $cid ) {
 			$name = esc_attr( $author['name'] );
 			$email = esc_attr( strtolower( $author['email'] ) );
 			
-			//if ( is_email( $email ) && $email != $network_notifier_site_email ) : // if admin shouldn't get notified
+			//if ( is_email( $email ) and $email != $network_notifier_site_email ) : // if admin shouldn't get notified
 			if ( is_email( $email ) ) :
 				$subject = 'Ny kommentar på "' . $network_notifier_site_name . '"';
 				
