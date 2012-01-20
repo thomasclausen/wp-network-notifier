@@ -4,6 +4,7 @@ Plugin Name: Network notifier
 Plugin URI: http://www.thomasclausen.dk/wordpress/
 Description: Automatically sends out an e-mail notifying the users of a blog when a new post is published or a new comment is approved.
 Version: 0.5
+License: GPLv2
 Author: Thomas Clausen
 Author URI: http://www.thomasclausen.dk
 */
