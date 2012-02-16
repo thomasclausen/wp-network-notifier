@@ -9,7 +9,9 @@ Currently no examples...
 
 # Usage
 
-Just activate the plugin, and on a subpage to "Settings" shows the users getting e-mails on the current blog.
+Download it, upload it and activate it!
+
+A subpage to "Settings" shows the users getting e-mails on the current blog.
 
 # Feedback
 
